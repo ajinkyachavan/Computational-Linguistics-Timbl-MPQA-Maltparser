@@ -1,0 +1,113 @@
+				1       3 			5			10		stance 				rf
+			
+abortion - 0.557554   0.625899   0.622302   0.647482	0.672661870504 0.593525179856 
+atheism - 0.544601    0.627586   0.704225   0.727700	0.732394366197 0.558685446009
+climate - 0.537931 	  0.610329   0.627586	0.648276	0.758620689655 0.579310344828
+hillary - 0.578947    0.607018	 0.607018 	0.596491	0.589473684211 0.571929824561
+feminist - 0.540230   0.597701	 0.563218	0.605364	0.659003831418 0.528735632184
+
+
+0.589928057554 
+0.544600938967
+0.558620689655
+0.60350877193
+0.536398467433
+
+
+0.672661870504
+0.732394366197
+0.758620689655
+0.589473684211
+0.659003831418
+
+stance
+
+---hillary---
+max class for this data-set is: AGAINST
+data-set size = 285, misclassification count = 117. Hence baseline accuracy = 0.589473684211
+--------------
+---abortion---
+max class for this data-set is: AGAINST
+data-set size = 278, misclassification count = 91. Hence baseline accuracy = 0.672661870504
+--------------
+---atheism---
+max class for this data-set is: AGAINST
+data-set size = 213, misclassification count = 57. Hence baseline accuracy = 0.732394366197
+--------------
+ajinkya@ajinkya-Lenovo:~/Documents/StanceDetection-master$ python stance_detection.py 
+features (after duplicates removed) are 2120
+features (after duplicates removed) are 3388
+features (after duplicates removed) are 4371
+features (after duplicates removed) are 5202
+features (after duplicates removed) are 6272
+features (after duplicates removed) are 6625
+features (after duplicates removed) are 6934
+features (after duplicates removed) are 7229
+features (after duplicates removed) are 7513
+features (after duplicates removed) are 7863
+features (after duplicates removed) are 8632
+---hillary---
+max class for this data-set is: AGAINST
+data-set size = 285, misclassification count = 117. Hence baseline accuracy = 0.589473684211
+--------------
+---abortion---
+max class for this data-set is: AGAINST
+data-set size = 278, misclassification count = 91. Hence baseline accuracy = 0.672661870504
+--------------
+---atheism---
+max class for this data-set is: AGAINST
+data-set size = 213, misclassification count = 57. Hence baseline accuracy = 0.732394366197
+--------------
+---climate---
+max class for this data-set is: FAVOR
+data-set size = 145, misclassification count = 35. Hence baseline accuracy = 0.758620689655
+--------------
+---feminist---
+max class for this data-set is: AGAINST
+data-set size = 261, misclassification count = 89. Hence baseline accuracy = 0.659003831418
+--------------
+
+
+
+
+
+
+
+
+
+random forest
+---hillary----
+num. train examples = 661, num. train labels = 661
+num. test examples = 285, num. test labels = 285
+(285, 285)
+Random Forest Accuracy = 0.60350877193
+-----------
+
+---abortion----
+num. train examples = 645, num. train labels = 645
+num. test examples = 278, num. test labels = 278
+(278, 278)
+Random Forest Accuracy = 0.589928057554
+-----------
+
+---atheism----
+num. train examples = 494, num. train labels = 494
+num. test examples = 213, num. test labels = 213
+(213, 213)
+Random Forest Accuracy = 0.544600938967
+-----------
+
+---climate----
+num. train examples = 387, num. train labels = 387
+num. test examples = 145, num. test labels = 145
+(145, 145)
+Random Forest Accuracy = 0.558620689655
+-----------
+
+---feminist----
+num. train examples = 638, num. train labels = 638
+num. test examples = 261, num. test labels = 261
+(261, 261)
+Random Forest Accuracy = 0.536398467433
+-----------
+
